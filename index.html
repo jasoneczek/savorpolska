@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>SavorPolska</title>
+</head>
+<body>
+  <!-- Main Nav & Hero Section -->
+  <header class="home-header">
+    <div class="container">
+      <nav class="main-nav">
+        <div class="logo">
+          <img src="img/logo.png" alt="" class="logo">
+        </div>
+        <ul class="desktop-menu">
+          <li><a href="index.html" class="text-sm link-undl">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="text-sm">Recipes</a>
+            <div class="dropdown-content">
+              <a href="recipes/vegetarian-leczo-stew.html" class="dd-link">Leczo Stew</a>
+              <a href="recipes/little-ears.html" class="dd-link">Little Ears</a>
+              <a href="recipes/opolskie-apple-cake.html" class="dd-link">Opolskie Apple Cake</a>
+            </div>
+          </li>
+          <li><a href="about.html" class="text-sm link-undl">About</a></li>
+          <li><a href="contact.html" class="text-sm link-undl">Contact</a></li>
+        </ul>
+        <div class="desktop-menu-accts">
+          <a href="#" class="btn btn-login">Sign In</a>
+          <a href="#" class="btn btn-signup">Sign Up</a>
+        </div>
+        <!-- Hamburger Button -->
+        <button id="hamburgerButton" class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div id="mobileMenu" class="mobile-menu">
+          <ul>
+            <li><a href="index.html" class="text-sm">Home</a></li>
+            <li class="dropdown">
+              <a href="#" id="mobileRecipesLink" class="text-sm">Recipes</a>
+              <div id="mobileRecipesDropdown" class="dropdown-content">
+                <a href="recipes/vegetarian-leczo-stew.html" class="dd-link">Leczo Stew</a>
+                <a href="recipes/little-ears.html" class="dd-link">Little Ears</a>
+                <a href="recipes/opolskie-apple-cake.html" class="dd-link">Opolskie Apple Cake</a>
+              </div>
+            </li>
+            <li><a href="about.html" class="text-sm">About</a></li>
+            <li><a href="contact.html" class="text-sm">Contact</a></li>
+          </ul>
+          <div class="mobile-menu-accts">
+            <a href="#" class="btn btn-mobile-login">Sign In</a>
+            <a href="#" class="btn btn-mobile-signup">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-container">
+          <img src="img/homepage-img/circles.svg" alt="" class="circles-left">
+          <h1 class="text-xlg text-center">Welcome to<br>Savor Polska</h1>
+          <img src="img/homepage-img/circles.svg" alt="" class="circles-right">
+          <p class="hero-para text-md text-center">Discover the Authentic Flavors of Polish Cuisine.</p>
+          <a href="#featuredRecipes" id="heroButton" class="btn btn-hero">See Recipes</a>
+          <img src="img/homepage-img/hero-img.jpg" alt="A plate of delicious Polish food.">
+        </div>
+      </div>
+    </div>
+  </header>
+  
+</body>
+</html>

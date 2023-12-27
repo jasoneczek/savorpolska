@@ -74,6 +74,101 @@
       </div>
     </div>
   </header>
-  
+  <main>
+    <!-- Featured Recipes -->
+    <section id="featuredRecipes" class="featured-recipes">
+      <h2 class="text-lg">Featured Recipes</h2>
+      <div class="container">
+        <div class="recipe-card">
+          <div class="card-img-container">
+            <img src="img/recipe-img/recipe-leczo.jpg" alt="A flavorful bowl of Polish leczo.">
+          </div>
+          <div class="recipe-card-content">
+            <h3 class="text-md text-center">Vegetarian Leczo Stew</h3>
+            <p class="text-sm text-center">
+              Colorful. Fresh. Delicious. Our Leczo recipe captures the essence of Polish summer.
+            </p>
+            <a href="recipes/vegetarian-leczo-stew.html" class="btn btn-recipe-card">Go to Recipe</a>
+          </div>
+        </div>
+        <div class="recipe-card">
+          <div class="card-img-container">
+            <img src="img/recipe-img/recipe-uszy.jpg" alt="A plate of mushroom filled dumplings.">
+          </div>
+          <div class="recipe-card-content">
+            <h3 class="text-md text-center">Little Ears</h3>
+            <p class="text-sm text-center">
+              Savor the exquisite taste of our "Little Ears", delightful Polish dumplings.
+            </p>
+            <a href="recipes/little-ears.html" class="btn btn-recipe-card">Go to Recipe</a>
+          </div>
+        </div>
+        <div class="recipe-card">
+          <div class="card-img-container">
+            <img src="img/recipe-img/recipe-ciasto.jpg" alt="A piece of mouthwatering cake.">
+          </div>
+          <div class="recipe-card-content">
+            <h3 class="text-md text-center">Opolskie Apple Cake</h3>
+            <p class="text-sm text-center">
+              Sweetness in every delectable slice. Indulge in the flavors of our Polish Apple Cake.
+            </p>
+            <a href="recipes/opolskie-apple-cake.html" class="btn btn-recipe-card">Go to Recipe</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2 class="text-lg text-center">See why our recipes are loved.</h2>
+      <div class="testimonials-bg">
+        <div class="testimonials-container">
+          <div class="testimonials-card">
+            <img src="img/homepage-img/testimonial-sarah-m.jpg" alt="Sarah M. - testimonial" class="testimonials-img">
+            <p class="text-md text-center">
+              "The recipes on this website have transformed my cooking! The flavors and authenticity of Polish cuisine are simply incredible!"
+            </p>
+            <p class="text-sm testimonial-name">Sarah M.</p>
+          </div>
+          <div class="testimonials-card">
+            <img src="img/homepage-img/testimonial-mateusz-k.jpg" alt="Mateusz K. - testimonial" class="testimonials-img">
+            <p class="text-md text-center">
+              "I'm amazed at how easy it is to follow the recipes on this site. Even as a beginner, I've been able to recreate traditional Polish dishes with great success!"
+            </p>
+            <p class="text-sm testimonial-name">Mateusz K.</p>
+          </div>
+          <div class="testimonials-card">
+            <img src="img/homepage-img/testimonial-emma-r.jpg" alt="Emma R. - testimonial" class="testimonials-img">
+            <p class="text-md text-center">
+              "This website is a gem for Polish food lovers. The recipes are well-written, and the results are always delicious. Highly recommended!"
+            </p>
+            <p class="text-sm testimonial-name">Emma R.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-img-container">
+          <img src="img/homepage-img/cta-cooking-woman.jpg" alt="A young woman holding a mixing bowl and whisk." class="cta-img">
+        </div>
+        <div class="form-wrapper">
+          <h2 class="text-lg text-center">Subscribe to our newsletter!</h2>
+          <p class="text-sm text-center">
+            Sign up to receive delicious, authentic Polish recipes each week, directly to your inbox.
+          </p>
+          <form id="subscriptionForm" novalidate>
+            <label for="email">Email address:</label>
+            <div class="input-box">
+              <input type="email" id="email" name="email" placeholder="Enter your email..">
+              <button type="submit" name="submit" class="btn">Subscribe</button>
+            </div>
+          </form>
+          <div id="messageContainer"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
 </body>
 </html>

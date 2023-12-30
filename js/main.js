@@ -6,3 +6,10 @@ hamburgerButton.addEventListener('click', () => {
   mobileMenu.classList.toggle('active');
   hamburgerButton.classList.toggle('close');
 });
+
+// Functionality for Recipes drowpown in mobile menu
+document.getElementById('mobileRecipesLink').addEventListener('click', function (event) {
+  
+  const mobileRecipesDropdown = document.getElementById('mobileRecipesDropdown');
+  mobileRecipesDropdown.classList.toggle('show');
+})

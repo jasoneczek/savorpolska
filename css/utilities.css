@@ -86,14 +86,14 @@
   margin-left: 1.5rem;
 }
 
-.main-nav .mobile-menu .accounts-mobile .btn-mobile-login {
+.mobile-menu .mobile-menu-accts .btn-mobile-login {
   background: var(--primary-green);
   border: 2px solid var(--primary-green);
   color: #fff;
   width: 100%;
 }
 
-.main-nav .mobile-menu .accounts-mobile .btn-mobile-signup {
+.mobile-menu .mobile-menu-accts .btn-mobile-signup {
   background: none;
   border: 2px solid var(--primary-green);
   color: var(--primary-green);

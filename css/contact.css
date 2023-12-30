@@ -1,0 +1,109 @@
+/* Contact Page */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 6rem;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: #d48533
+}
+
+.contact-form label {
+  color: var(--light-yellow);
+}
+
+.contact-form input[type="email"] {
+  background: var(--light-yellow);
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 0.8rem 2rem;
+  margin-bottom: 1rem;
+  border: 2px solid #fff;
+  border-radius: .5rem;
+  width: 100%;
+  outline: none;
+}
+
+.contact-form input[type="email"]:focus {
+  background: #fff;
+  border: 2px solid var(--primary-green);
+}
+
+.contact-form textarea {
+  background: var(--light-yellow);
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 0.8rem 2rem;
+  margin-bottom: 1rem;
+  border: 2px solid #fff;
+  border-radius: .5rem;
+  width: 100%;
+  outline: none;
+}
+
+.contact-form textarea:focus {
+  background: #fff;
+  border: 2px solid var(--primary-green);
+}
+
+.contact-form input::placeholder {
+  font-size: 1rem;
+  opacity: 0.4;
+}
+
+.contact-form input:focus::placeholder {
+  color: var(--primary-green);
+  opacity: 0.8;
+}
+
+.contact-form textarea::placeholder {
+  font-size: 1rem;
+  opacity: 0.4;
+}
+
+.contact-form textarea:focus::placeholder {
+  color: var(--primary-green);
+  opacity: 0.8;
+}
+
+.contact-form #errorMessageContainer {
+  color: var(--light-yellow);
+  text-align: center;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form #successMessageContainer {
+  color: var(--light-yellow);
+  text-align: center;
+  height: 2rem;
+  margin: 2rem auto;
+}
+
+@media(max-width: 53.125rem) {
+  /* Mobile Homepage */
+  .contact-form {
+      padding: 2rem 1rem;
+  }
+  
+  .contact-form label {
+      font-size: 1.2rem;
+  }
+
+  .contact-form input[type="email"] {
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+  }
+
+  .contact-form .btn {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  .contact-form #errorMessageContainer {
+      color: var(--light-yellow);
+      text-align: center;
+      height: 2rem;
+      margin-bottom: 1.5rem;
+  }
+}

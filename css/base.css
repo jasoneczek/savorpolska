@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* COLORS */
+  --white: #fff;
+  --light-yellow: #fff5d2;
+  --primary-red: #821902;
+  --primary-green: #015567;
+  --dark-red-gray: #4c0000;
+
+  /* FONTS */
+  --ff-abril: 'Abril Fatface', serif;
+  --ff-sans: 'Source Sans 3', sans-serif;
+}
+
+body {
+  font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 1.25rem;
+  background: var(--light-yellow);
+  color: var(--dark-red-gray);
+}
+
+main {
+  padding-top: 100px;
+}
+
+a { 
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

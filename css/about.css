@@ -1,0 +1,24 @@
+/* About Page */
+.about {
+  margin-bottom: 8rem;
+}
+
+.about-content p {
+  color: var(--dark-red-gray);
+}
+
+/* Mobile */
+@media(max-width: 53.125rem) {
+  .about-content h2 {
+      font-size: 2rem;
+  }
+
+  .about {
+    margin-bottom: 8rem;
+  }
+
+  .about-content p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}

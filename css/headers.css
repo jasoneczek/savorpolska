@@ -401,7 +401,6 @@ header {
 
   .about-hero .img-wrapper {
     max-width: 100%;
-    height: auto;
     grid-column: 1;
     grid-row: 2;
     margin: 0 auto;
@@ -409,7 +408,7 @@ header {
 
   .about-hero .about-header-img {
     max-width: 100%;
-    height: 215px;
+    height: 100%;
     object-fit: cover;
   }
 
